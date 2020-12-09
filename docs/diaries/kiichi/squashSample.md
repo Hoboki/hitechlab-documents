@@ -1,1 +1,2 @@
 squash1
+squash2
