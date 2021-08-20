@@ -1,3 +1,5 @@
+20201124
+
 # Gitの理解・実践
 
 VSCodeでuser.nameとuser.emailを求められたとき、
