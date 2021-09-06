@@ -72,10 +72,6 @@ __Question__
 
 ![Route:resource](https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F176572%2Fca4ad251-af3c-9195-4934-ad587fe184e8.png?ixlib=rb-1.2.2&auto=format&gif-q=60&q=75&s=7790398f657b1372b157e0230e8fe069)
 
-___
-
-__Qustion__
-
 参考
 >[LaravelでRoute::resourceを使うときに気をつけること](https://qiita.com/sympe/items/9297f41d5f7a9d91aa11)
 
@@ -108,7 +104,11 @@ CompanyとOfficeの関係と同じ
 
 20210117
 
-# config('app.name', 'Laravel'), mix('js/app.js')
+# Tinker, config('app.name', 'Laravel'), mix('js/app.js')
+
+## Tinker
+
+<image src="images\Tinker.png" width="300" style="margin: 0 auto;">
 
 20210121
 
