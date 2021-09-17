@@ -433,6 +433,3 @@ sensor.irq(trigger = m.Pin.IRQ_RISING, handler = sensor_callback)
 
 >[Raspberry Pi PicoをArduinoにしてモーションを検知してみる – スイッチサイエンス マガジン](https://mag.switch-science.com/2021/04/28/pir-with-arduino-raspberry-pi-pico/)
 
-___
-
-__Qustion__

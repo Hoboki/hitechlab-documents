@@ -6,4 +6,4 @@ https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_in
 
 20210917
 # Wi-Fi接続について
-Wi-Fiは2.4GHzにしか対応していない。5GHZとは接続できないので注意。
+Wi-Fiは2.4GHzにしか対応していない。5GHZとは接続できないので注意。(SSID 001D738369D0_Gは2.4GHz)
