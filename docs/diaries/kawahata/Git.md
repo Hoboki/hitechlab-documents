@@ -25,3 +25,20 @@ __強制コミット__
 >[Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7)
 
 >[記号と読み](http://www.asahi-net.or.jp/~jh3m-fjym/kigou/kigou.html)
+
+20210923
+# ローカルのディレクトリをGithubへアップロードする方法
+
+[ローカルのディレクトリをGithubへアップロードする方法｜Koushi Kagawa｜note](https://note.com/koushikagawa/n/nfccf06fa845b)
+
+もうすでにgit addしてしまっているファイルは.gitignoreの記載に関係なく追跡されてしまうので、以下のコマンドが必要。
+
+```cmd
+ファイルのキャッシュを削除
+git git rm --cached FILE_NAME
+
+ディレクトリ内の全てのファイルのキャッシュを削除
+git rm -r --cached DIR_NAME
+```
+
+[.gitignore の書き方。ファイル/ディレクトリの除外 | WWWクリエイターズ](https://www-creators.com/archives/1662)
