@@ -42,3 +42,7 @@ git rm -r --cached DIR_NAME
 ```
 
 [.gitignore の書き方。ファイル/ディレクトリの除外 | WWWクリエイターズ](https://www-creators.com/archives/1662)
+
+# refusing to merge unrelated historiesを解決する
+
+[[Git] fatal: refusing to merge unrelated historiesを解決する話 - Qiita](https://qiita.com/mei28/items/85bc881ac1f26332ac15)
