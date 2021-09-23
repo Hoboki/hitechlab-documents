@@ -46,3 +46,22 @@ git rm -r --cached DIR_NAME
 # refusing to merge unrelated historiesを解決する
 
 [[Git] fatal: refusing to merge unrelated historiesを解決する話 - Qiita](https://qiita.com/mei28/items/85bc881ac1f26332ac15)
+
+# リポジトリを変更する
+```git
+git remote set-url origin NEW_URL
+※NEW_URL：https://github.com/AccountName/RepositoryName.git
+
+git push origin main
+※旧バージョンはmaster
+```
+the remote end hung up unexpectedlyエラーが出る場合、コミットサイズが大きい可能性がある。したがって、以下のコマンドを追加。
+```
+git config http.postBuffer 52428000
+```
+それでもダメな場合
+```
+git config --global http.postBuffer 2M
+```
+
+[gitで「the remote end hung up unexpectedly」が出た時の対処法 | CODE CLUB965](https://codeclub965.com/?p=2073)
