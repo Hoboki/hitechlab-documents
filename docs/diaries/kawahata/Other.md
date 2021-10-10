@@ -7,3 +7,6 @@ Command Promptで検索したいディレクトリまで移動
 
 # windowsでファイルを重い順に表示
 Get-ChildItem -Path "C:\" -Force -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.Length -ge 1GB} | Select-Object Fullname, Length
+
+# Windows Printscreenができないときの対処法
+Settings→Apps→StartupでMicrosoft OneDriveがOffになっている可能性。Onにする。
