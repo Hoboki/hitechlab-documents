@@ -146,3 +146,5 @@ __Qustion__
 # Laradock複数プロジェクト環境構築
 
 [【Laravel】Laradockで複数プロジェクトを動かす手順 | ぺんすけブログ - ぺんすけブログ](https://pensuke.work/posts/laradock-multiproject/)
+
+[「/etc/hosts」ファイルについて - Qiita](https://qiita.com/hirokik-0076/items/830f18ed733e65defa58)
