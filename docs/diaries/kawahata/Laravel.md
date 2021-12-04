@@ -150,3 +150,7 @@ __Qustion__
 [「/etc/hosts」ファイルについて - Qiita](https://qiita.com/hirokik-0076/items/830f18ed733e65defa58)
 
 [【Tips】Windows 10のhostsファイルを編集する方法 | ソフトアンテナ](https://softantenna.com/wp/tips/windows-edit-hosts/)
+
+20211205
+
+# Request::route()でなぜインスタンスが取得できるのかがわからん。
