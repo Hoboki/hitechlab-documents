@@ -154,3 +154,17 @@ __Qustion__
 20211205
 
 # Request::route()でなぜインスタンスが取得できるのかがわからん。
+
+20211206
+
+# $casts
+
+データの型変換を要するカラムを指定する。Companyモデルのurlsは、データには配列としてではなく、以下の''内全てを文字列としてJSON形式で保存される。
+
+'[http://a.com, http://b.com]'
+
+# $appendsとアクセサ
+
+Companyモデルにはfull_nameのカラムがないので、インスタンス生成の際（会社データを取り出してくるとき）に一緒に作る。
+
+getFullNameAttribute関数は特別な関数名（get{cammelCaseのAttribute名}Attribute）だから、自動で$company->full_nameでgetFullNameAttribute()の返り値が返される。
