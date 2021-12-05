@@ -168,3 +168,11 @@ __Qustion__
 Companyモデルにはfull_nameのカラムがないので、インスタンス生成の際（会社データを取り出してくるとき）に一緒に作る。
 
 getFullNameAttribute関数は特別な関数名（get{cammelCaseのAttribute名}Attribute）だから、自動で$company->full_nameでgetFullNameAttribute()の返り値が返される。
+
+# Problem
+
+- 個人一覧から個人の詳細が見られない->取り急ぎ修正済み
+
+- 会社の分類がmorphなのは個人も分類が充てられるからか？
+
+- order_listableテーブルのorder_listable_typeカラムがおかしい。type=MakerやSupplierは会社か個人のはずだがorder_listable_type=App\Models\Order\UnregisteredListになってしまう。そのせいか購入依頼一覧->未発注リスト(会社)が反映されない。
