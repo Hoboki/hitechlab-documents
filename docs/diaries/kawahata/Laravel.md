@@ -176,3 +176,7 @@ getFullNameAttribute関数は特別な関数名（get{cammelCaseのAttribute名}
 - 会社の分類がmorphなのは個人も分類が充てられるからか？
 
 - order_listableテーブルのorder_listable_typeカラムがおかしい。type=MakerやSupplierは会社か個人のはずだがorder_listable_type=App\Models\Order\UnregisteredListになってしまう。そのせいか購入依頼一覧->未発注リスト(会社)が反映されない。
+
+20211210
+
+分類に未登録の会社や未登録部品の登録を許すと、小さい誤字が増えるかも。誤字があるごとに未登録情報が増えていくと後で修正が面倒になるかもしれない。
