@@ -51,3 +51,10 @@ win+Rで`regedit`を入力し実行後、アドレスバーに`Computer\HKEY_LOC
 [Windows版Dockerの強制アンインストールと旧バージョンの再インストール方法 - Qiita](https://qiita.com/comefigo/items/957a5d555e9305add353)
 
 [Dockerの再インストールプロンプト既存のインストールは最新のソリューションです](https://blog.csdn.net/qq_35445306/article/details/106242761)
+
+20220211
+
+イメージ、ボリューム削除
+```
+docker rmi `docker images -q` && docker volume rm $(docker volume ls -qf dangling=true)
+```
