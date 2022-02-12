@@ -54,7 +54,13 @@ win+Rで`regedit`を入力し実行後、アドレスバーに`Computer\HKEY_LOC
 
 20220211
 
-イメージ、ボリューム削除
+# イメージ、ボリューム削除
 ```
 docker rmi `docker images -q` && docker volume rm $(docker volume ls -qf dangling=true)
 ```
+
+# PHPバージョン変更
+
+## 例）8.0に変更
+
+update-alternatives --set php /usr/bin/php8.0
