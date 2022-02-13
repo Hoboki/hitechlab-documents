@@ -64,3 +64,16 @@ docker rmi `docker images -q` && docker volume rm $(docker volume ls -qf danglin
 ## 例）8.0に変更
 
 update-alternatives --set php /usr/bin/php8.0
+
+20220214
+
+# `docker.credentials.errors.InitializationError: docker-credential-desktop.exe not installed or not available in PATH`
+
+解決法
+```bash
+echo 'export PATH="$PATH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin"' >> ~/.profile
+tail ~/.profile
+```
+Ubuntu再起動
+
+それでもダメな場合 `rm ~/.docker/config.json`
