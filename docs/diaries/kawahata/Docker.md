@@ -72,7 +72,7 @@ update-alternatives --set php /usr/bin/php8.0
 解決法
 ```bash
 echo 'export PATH="$PATH:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin"' >> ~/.profile
-tail ~/.profile
+source ~/.profile
 ```
 Ubuntu再起動
 
