@@ -63,7 +63,7 @@ docker rmi `docker images -q` && docker volume rm $(docker volume ls -qf danglin
 
 ## 例）8.0に変更
 
-update-alternatives --set php /usr/bin/php8.0
+`update-alternatives --set php /usr/bin/php8.0`
 
 20220214
 
